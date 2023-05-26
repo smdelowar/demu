@@ -1,0 +1,102 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+body {
+   background-color: rgb(234, 240, 240);
+   font-family: Arial, Helvetica, sans-serif;
+}
+p {
+   line-height: 1.5;
+}
+.container {
+   background-color: rgb(214, 214, 214);
+   width: 1000px;
+   margin: 0 auto;
+   padding: 20px;
+}
+/* header start  */
+header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.header-bio {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   gap: 1.5rem;
+}
+
+img {
+   width: 100px;
+   height: 120px;
+   border-radius: 50%;
+}
+/* .header-bio {
+   margin-left: 30px;
+   margin-top: 20px; 
+}*/
+*/ h1,
+h2,
+h4 {
+   color: #130b0b;
+}
+
+.header-contact a {
+   text-decoration: none;
+   color: #130b0b;
+   font-size: 20px;
+}
+.header-contact a:hover {
+   color: tomato;
+   text-shadow: #130b0b;
+}
+/* header end  */
+hr {
+   margin-top: 10px;
+   border-bottom: none;
+   border: solid 2px;
+   width: 100%;
+}
+/* personal section start */
+.content {
+   display: flex;
+   margin-top: 20px;
+}
+.left-div {
+   width: 30%;
+   padding-top: 10px;
+}
+.right-div {
+   width: 70%;
+   padding-top: 5px;
+}
+/* .persoal-section end  */
+.common-hr {
+   border: solid black 1px;
+   border-bottom: none;
+   margin-top: 10px;
+}
+h3 {
+   margin: 10px 0;
+}
+/* education section  */
+.right-div-edu {
+   width: 70%;
+   display: flex;
+}
+.edu {
+   box-sizing: border-box;
+}
+.footer {
+   width: 1000px;
+   background-color: rgb(27, 18, 27);
+   height: 100px;
+}
+.footer p {
+   color: aliceblue;
+   text-align: center;
+   padding: 10px;
+}
